@@ -1,0 +1,206 @@
+/* SASS VARAIBLE */
+body {
+  overflow-x: hidden;
+}
+
+#logo {
+  font-size: 1.5rem;
+  color: #fff;
+  padding: .5rem;
+  display: block;
+  width: 100%;
+  text-decoration: none;
+  text-align: center;
+}
+
+nav {
+  height: 12vh;
+}
+
+nav #nav-items {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+nav #nav-items li {
+  display: inline-block;
+}
+
+nav #nav-items li a {
+  display: inline-block;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 0 .5rem;
+  color: #fff;
+}
+
+nav #nav-items li a:hover {
+  color: #ccc;
+  border-bottom: solid 1px #ccc;
+}
+
+nav #nav-items li .current {
+  color: #ccc;
+  border-bottom: solid 1px #ccc;
+}
+
+#bg-img {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(51, 46, 46, 0.438)), to(rgba(49, 43, 43, 0.356))), url(img/software_1.jpg) no-repeat center;
+  background: linear-gradient(rgba(51, 46, 46, 0.438), rgba(49, 43, 43, 0.356)), url(img/software_1.jpg) no-repeat center;
+  background-size: cover;
+  background-position: center;
+  height: 60vh;
+}
+
+#showcase {
+  position: relative;
+}
+
+#showcase #headline {
+  width: 90%;
+  position: absolute;
+  padding: 0 1rem;
+  top: 35%;
+}
+
+#showcase #headline h1, #showcase #headline p {
+  text-align: center;
+  color: #d4d4d4;
+}
+
+.section {
+  padding: 5rem 0;
+}
+
+.img-right {
+  width: 100%;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+ul h4 {
+  padding: .5rem;
+  color: #fff;
+}
+
+footer {
+  height: 10vh;
+  padding: 1rem;
+  margin-top: 3rem;
+  text-align: center;
+  color: #fff;
+}
+
+/* Fixed footer at bottom */
+.fix-footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+/* lEARN PAGE  */
+#headline-learn {
+  margin-top: 2rem;
+}
+
+.table {
+  padding: 1rem;
+}
+
+table {
+  margin: 1rem 0;
+  height: 20vh;
+  border: solid 2px;
+}
+
+table th {
+  border: solid 1px;
+  text-align: center;
+  color: #fff;
+}
+
+table td {
+  border: solid 1px;
+  text-align: center;
+}
+
+/* PRACTICE PAGE */
+.practice {
+  padding: 1rem;
+}
+
+.practice .par-exe {
+  border: solid;
+  color: #fff;
+}
+
+.practice2 {
+  padding: 1rem;
+}
+
+.practice2 .par-exe {
+  border: solid;
+  color: #fff;
+}
+
+a.link-pra {
+  width: 100px;
+  text-align: center;
+  display: block;
+  margin: 0 auto 1rem auto;
+}
+
+/* ABOUT PAGE */
+div.card {
+  border: solid 1px;
+  padding: 1rem;
+  margin-top: 3rem;
+  color: #ccc;
+}
+
+/* Media Query for Nav adjustment on lg screen */
+@media (min-width: 768px) {
+  nav {
+    height: 8vh;
+  }
+  nav #logo {
+    display: inline-block;
+    width: 100px;
+  }
+  nav #par1 {
+    text-align: center;
+  }
+  nav #nav-items {
+    width: 80%;
+    display: inline-block;
+    text-align: right;
+    margin-bottom: 0;
+  }
+  section h3, section p {
+    text-align: left;
+  }
+  section .link-a {
+    text-align: left;
+    width: 100px;
+  }
+  .practice {
+    margin-top: 3rem;
+    padding: 1rem;
+  }
+  .practice2 {
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    padding: 1rem;
+  }
+  div.card {
+    margin-top: 0;
+  }
+}
+/*# sourceMappingURL=main.css.map */
